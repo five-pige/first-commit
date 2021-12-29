@@ -21,7 +21,7 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/AboutUs' className='Main-words'>
+                                <Link to='/indiPage' className='Main-words'>
                                     О нас
                                 </Link>
                             </li>
@@ -33,16 +33,16 @@ const Header = () => {
                             </li>
 
                             <div className={'register'}>
-                            <li>
-                                <Link to='/Contacts' className='Main-words'>
-                                    <button>Регистрация</button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/Contacts' className='Main-words'>
-                                    <button>Войти</button>
-                                </Link>
-                            </li>
+                                <li>
+                                    <Link to='/Contacts' className='Main-words'>
+                                        <button>Регистрация</button>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/Contacts' className='Main-words'>
+                                        <button>Войти</button>
+                                    </Link>
+                                </li>
                             </div>
                             <li>
                                 <Link to='/Contacts' className='Main-words'>
